@@ -4,12 +4,11 @@
 This GitHub contains all relevant files used during development of our RC car project for ECE 1000.
 
 ## Project Summary
-In this project, we use a Rasberry Pi Pico WH to emit a bluetooth signal, control a motor driver, and drive a servo.
+This project uses a Rasberry Pi Pico WH to emit a bluetooth signal, control a motor driver, and drive a servo.
 The entire project works on a 9V battery stepped down to 5V by the motor driver powering the pi pico, servo, and the DC motor.
-We then connect to the pi pico to a phone by Bluetooth and control the car through an app from the Google playstore.
-Once connected to the RC car you can use the bluetooth terminal to send messages directly to the pi.
-We use micro python to read these codes and then turn on a motor and a servo to move and turn the car.
-The RC car chassis was custom made for this project in Fusion 360.
+The RC car is entirely controlled through a phone by a bluetooth teminal using an app from the Google Playstore.
+Micropython code on the pi pico is used to drive the servo, turning the car left and right, and a signal sent to 2 pins on
+the motor driver controls the car moving forward and backward. The chassis was custom made for this project in Fusion 360.
 
 ## Project Capabilities 
 * Ability to move forward and backward, and to turn left and right
