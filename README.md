@@ -8,6 +8,7 @@ In this project, we use a Rasberry Pi Pico WH to emit a bluetooth signal, contro
 The entire project works on a 9V battery stepped down to 5V by the motor driver powering the pi pico, servo, and the DC motor.
 We then connect to pi pico to a phone by Bluetooth and control the car through an app from the Google playstore listed here:
 https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US
+
 Once connected to the RC car you can use the bluetooth terminal to send messages directly to the pi.
 We use micro python to read these codes and then turn on a motor and a servo to move and turn the car.
 The RC car chassis was custom made for this project in Fusion 360.
