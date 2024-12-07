@@ -6,10 +6,7 @@ This GitHub contains all relevant files used during development of our RC car pr
 ## Project Summary
 In this project, we use a Rasberry Pi Pico WH to emit a bluetooth signal, control a motor driver, and drive a servo.
 The entire project works on a 9V battery stepped down to 5V by the motor driver powering the pi pico, servo, and the DC motor.
-We then connect to pi pico to a phone by Bluetooth and control the car through an app from the Google playstore listed here:
-h
-ttps://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US
-
+We then connect to pi pico to a phone by Bluetooth and control the car through an app from the Google playstore.
 Once connected to the RC car you can use the bluetooth terminal to send messages directly to the pi.
 We use micro python to read these codes and then turn on a motor and a servo to move and turn the car.
 The RC car chassis was custom made for this project in Fusion 360.
@@ -23,6 +20,9 @@ The RC car chassis was custom made for this project in Fusion 360.
 ## Links
 Viewable Fusion 360 File:
 https://a360.co/4gidKkq
+
+Google Playstore Bluetooth App:
+https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US
 
 6V-12V DC Motor:
 https://www.amazon.com/AUTOTOOLHOME-Torque-Traxxas-Wheels-Electric/dp/B01M58POHF/ref=sr_1_31?sr=8-31
